@@ -1,1 +1,4 @@
 # Sorters
+This project follows the development of a custom sorting algorithm that I developed. The algorithm is a revised version of bucket sort whose runtime is no longer dependent on the bucket size or the values that the data takes. This project was originally inspired by my CustomRadixSort project (also on my GitHub).
+
+The file sorters_v2.py contains the best (and most recent) versions of my sorting algorithm along with other algorithms to compare with. Its run-time surpasses a pure Python implementation of Tim-Sort (which is the version Python actually uses for its own sorting algorithm), although my algorithm requires that data can be represented in some purely numerical format (which is not a condition for Tim-Sort). I've also included additional ideas that I have attempted for optimizing sorting!
